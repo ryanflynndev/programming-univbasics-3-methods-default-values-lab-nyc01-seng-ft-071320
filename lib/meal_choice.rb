@@ -7,5 +7,5 @@ def meal_choice (veg1, veg2, protein = "tofu")
   elsif veg1 == "carrots" && veg2 == "string beans" 
     puts "What a nutritious meal!"
   end
-  puts "A plate of #{protein} with #{veg1} and #{veg2}."
+  return puts "A plate of #{protein} with #{veg1} and #{veg2}."
 end
